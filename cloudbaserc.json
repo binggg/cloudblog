@@ -70,6 +70,7 @@
                     "privateKey": "{{env.WX_CI_KEY}}",
                     "ignores": ["node_modules/**/*"],
                     "deployMode": "upload",
+                    "commands": { "install": "npm install"}
                     "previewOptions": {
                         "desc": "一键预览",
                         "setting": {
